@@ -9,7 +9,11 @@
     "start": "next start"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.8",
+    "@heroicons/react": "^2.0.14",
+    "i": "^0.3.7",
     "next": "13.1.6",
+    "npm": "^9.4.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "zod": "^3.20.2"
