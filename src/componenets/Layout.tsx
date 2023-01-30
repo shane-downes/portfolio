@@ -21,6 +21,7 @@ export const Layout = ({
       <Head>
         <title>{title}</title>
         <meta name="description" content={description} />
+        <meta name="theme-color" content="##111827" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="flex min-h-screen flex-col">
