@@ -22,7 +22,7 @@ export const SlideMenu = ({ open, setOpen }: SlideMenuProps) => {
           leaveTo="opacity-0"
         >
           {/* background fade */}
-          <div className=" fixed inset-0  top-[14.5vw] bg-slate-50 bg-opacity-90 transition-opacity dark:bg-gray-900 dark:bg-opacity-95 md:top-[8.8vw] lg:top-[4.5vw]" />
+          <div className=" fixed inset-0  top-[14.5vw] bg-slate-50 bg-opacity-95 transition-opacity dark:bg-gray-900 dark:bg-opacity-95 md:top-[8.8vw] lg:top-[4.5vw]" />
         </Transition.Child>
 
         <div className="fixed inset-0 overflow-hidden">
@@ -48,7 +48,7 @@ export const SlideMenu = ({ open, setOpen }: SlideMenuProps) => {
                         {/* close button */}
                         <button
                           type="button"
-                          className=" text-slate-400 hover:text-slate-500 focus:outline-none"
+                          className=" text-slate-500 hover:text-slate-700 focus:outline-none dark:text-slate-500 dark:hover:text-slate-300"
                           onClick={() => setOpen(false)}
                         >
                           <span className="sr-only">Close panel</span>

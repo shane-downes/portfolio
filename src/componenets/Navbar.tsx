@@ -11,7 +11,7 @@ export const Navbar = ({ setOpen }: NavbarProps) => {
       <Logo className="w-[7vw] text-slate-700 dark:text-slate-400 md:w-[4vw] lg:w-[2vw]" />
       <Bars3Icon
         onClick={() => setOpen(true)}
-        className="w-[6vw] cursor-pointer text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-500 md:w-[3vw] lg:w-[1.7vw]"
+        className="w-[6vw] cursor-pointer text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-300 md:w-[3vw] lg:w-[1.7vw]"
       />
     </nav>
   );
