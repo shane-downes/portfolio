@@ -2,7 +2,7 @@
 
 I'm building this site to share personal projects I'm working on.
 
-It's still a work in progress, but you can check out at [shanedownes.com](https://shanedownes.com) 🚧
+It's still a work in progress, but you can check it out at [shanedownes.com](https://shanedownes.com) 🚧
 
 Current stack:
 
