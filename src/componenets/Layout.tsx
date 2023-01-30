@@ -20,8 +20,8 @@ export const Layout = ({
     <>
       <Head>
         <title>{title}</title>
-        <meta name="description" content={description} />
-        <meta name="theme-color" content="##111827" />
+        <meta key="description" name="description" content={description} />
+        <meta key="theme-color-dark" name="theme-color" content="##111827" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="flex min-h-screen flex-col">

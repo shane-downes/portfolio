@@ -7,7 +7,7 @@ type NavbarProps = {
 
 export const Navbar = ({ setOpen }: NavbarProps) => {
   return (
-    <nav className="sticky flex w-full content-center items-center justify-between border-b-[1px] border-t-[1px] border-slate-200 bg-slate-50 px-[4vw] py-[3vw] dark:border-gray-700 dark:bg-gray-900 md:px-[3vw] md:py-[2vw] lg:px-[1.5vw] lg:py-[1vw]">
+    <nav className="sticky top-0 z-50 flex w-full content-center items-center justify-between border-b-[1px] border-t-[1px] border-slate-200 bg-slate-50 px-[4vw] py-[3vw] dark:border-gray-700 dark:bg-gray-900 md:px-[3vw] md:py-[2vw] lg:px-[1.5vw] lg:py-[1vw]">
       <Logo className="w-[7vw] text-slate-700 dark:text-slate-400 md:w-[4vw] lg:w-[2vw]" />
       <Bars3Icon
         onClick={() => setOpen(true)}
