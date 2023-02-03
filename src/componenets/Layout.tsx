@@ -27,7 +27,7 @@ export const Layout = ({
       <div className="flex min-h-screen flex-col">
         <Navbar setOpen={setOpen} />
         <SlideMenu open={open} setOpen={setOpen} />
-        <main className="flex flex-grow flex-col items-center justify-center gap-2 bg-slate-50 px-[3vw] dark:bg-gray-900">
+        <main className="flex flex-grow flex-col bg-slate-50 px-[4vw] dark:bg-gray-900 lg:px-0">
           {children}
         </main>
       </div>
