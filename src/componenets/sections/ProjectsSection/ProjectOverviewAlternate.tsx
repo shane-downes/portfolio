@@ -22,14 +22,14 @@ export const ProjectOverviewAlternate = ({
 }: ProjectOverviewAlternateProps) => {
   return (
     <div className="flex">
-      <div className="relative flex flex-col gap-[1.6vw] border-slate-300 dark:border-gray-700 lg:border-l-[1px] lg:border-b-[1px] lg:p-[2.6vw]">
+      <div className="relative flex flex-col gap-[1.6vw] border-slate-300 dark:border-gray-700 lg:border-l-[1px] lg:p-[2.6vw]">
         <Image
           className="hidden lg:block lg:h-[28vw] lg:w-[97vw]"
           src={mockup}
           alt="Frumo App"
         />
       </div>
-      <div className="relative flex flex-col justify-between gap-[1.6vw] border-slate-300 dark:border-gray-700 lg:border-l-[1px] lg:border-b-[1px] lg:pl-[2.6vw] lg:pb-[2.6vw] lg:pt-[2vw] lg:pr-[15vw]">
+      <div className="relative flex flex-col justify-between gap-[1.6vw] border-slate-300 dark:border-gray-700 lg:border-l-[1px] lg:pl-[2.6vw] lg:pb-[2.6vw] lg:pt-[2vw] lg:pr-[15vw]">
         <Image
           className="mb-[7vw] w-full lg:hidden"
           src={mockupMobile}

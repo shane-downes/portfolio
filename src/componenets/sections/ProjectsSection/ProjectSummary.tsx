@@ -17,7 +17,7 @@ export function ProjectSummary({
       <p className="text-[4.2vw] leading-relaxed text-slate-500 dark:text-slate-400 lg:text-[1.2vw]">
         {description}
       </p>
-      <p className="pr-[5vw] text-[4.2vw] leading-relaxed text-slate-800 dark:text-slate-300 lg:p-0 lg:text-[1.1vw]">
+      <p className="pr-[5vw] text-[4.2vw] leading-relaxed tracking-wide text-slate-800 dark:text-slate-300 lg:p-0 lg:text-[1.1vw]">
         {stack}
       </p>
     </div>

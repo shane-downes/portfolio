@@ -1,6 +1,8 @@
+import { ContactSection } from "./../componenets/sections/ContactSection";
 import { ProjectsSection } from "../componenets/sections/ProjectsSection/ProjectsSection";
 import { HeroSection } from "../componenets/sections/HeroSection";
 import { Layout } from "../componenets/layouts/Layout";
+
 import { type NextPage } from "next";
 
 const Home: NextPage = () => {
@@ -8,7 +10,8 @@ const Home: NextPage = () => {
     <Layout>
       <HeroSection />
       <ProjectsSection />
-      {/* TODO: Contact Section */}
+      {/* DONE: Contact Section ✅ */}
+      <ContactSection />
     </Layout>
   );
 };
