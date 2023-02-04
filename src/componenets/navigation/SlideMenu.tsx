@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import { XMarkIcon } from "@heroicons/react/24/outline";
-import { ModeToggle } from "./ModeToggle";
+import { ModeToggle } from "../buttons/ModeToggle";
 
 type SlideMenuProps = {
   open: boolean;
@@ -39,9 +39,9 @@ export const SlideMenu = ({ open, setOpen }: SlideMenuProps) => {
               >
                 {/* slide panel */}
                 <Dialog.Panel className="pointer-events-auto w-screen md:max-w-[33vw]">
-                  <div className="flex h-full flex-col border-l-[1px] border-slate-200 bg-slate-50 pb-6 dark:border-gray-700 dark:bg-gray-900">
+                  <div className="flex h-full flex-col border-l-[1px] border-slate-300 bg-slate-50 pb-6 dark:border-gray-700 dark:bg-gray-900">
                     {/* top panel */}
-                    <div className="border-b-[1px] border-t-[1px] border-slate-200 px-[4vw] py-[3vw] dark:border-gray-700 md:px-[3vw] md:py-[2vw] lg:px-[1.5vw] lg:py-[1vw]">
+                    <div className="border-b-[1px] border-t-[1px] border-slate-300 px-[4vw] py-[3vw] dark:border-gray-700 md:px-[3vw] md:py-[2vw] lg:px-[1.5vw] lg:py-[1vw]">
                       <div className="flex items-center justify-between">
                         {/* dark mode toggle */}
                         <ModeToggle />
@@ -63,7 +63,7 @@ export const SlideMenu = ({ open, setOpen }: SlideMenuProps) => {
                       {/* content */}
                       <div className="absolute inset-0 px-4 sm:px-6">
                         <div
-                          className="h-full border-[1px] border-dashed border-slate-200 dark:border-slate-600"
+                          className="h-full border-[1px] border-dashed border-slate-300 dark:border-slate-600"
                           aria-hidden="true"
                         />
                       </div>

@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { useState } from "react";
-import { Navbar } from "./Navbar";
-import { SlideMenu } from "./SlideMenu";
+import { Navbar } from "../navigation/Navbar";
+import { SlideMenu } from "../navigation/SlideMenu";
 
 type LayoutProps = {
   children: React.ReactNode;
