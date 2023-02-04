@@ -61,6 +61,7 @@ export const SlideMenu = ({ open, setOpen }: SlideMenuProps) => {
                     </div>
                     <div className="relative mt-6 flex-1 px-4 sm:px-6">
                       {/* content */}
+                      {/* TODO: add menu anchor links */}
                       <div className="absolute inset-0 px-4 sm:px-6">
                         <div
                           className="h-full border-[1px] border-dashed border-slate-300 dark:border-slate-600"

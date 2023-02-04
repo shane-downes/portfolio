@@ -8,6 +8,7 @@ const Home: NextPage = () => {
     <Layout>
       <HeroSection />
       <ProjectsSection />
+      {/* TODO: Contact Section */}
     </Layout>
   );
 };
