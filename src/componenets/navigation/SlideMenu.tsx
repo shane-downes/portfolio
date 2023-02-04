@@ -23,9 +23,8 @@ export const SlideMenu = ({ open, setOpen }: SlideMenuProps) => {
           leaveFrom="opacity-100"
           leaveTo="opacity-0"
         >
-          {/* TODO: align top of background fade correctly */}
           {/* background fade */}
-          <div className=" fixed inset-0  top-[14.5vw] bg-slate-50 bg-opacity-95 transition-opacity dark:bg-gray-900 dark:bg-opacity-95 md:top-[8.8vw] lg:top-[4.5vw]" />
+          <div className=" fixed inset-0  top-[14.3vw] bg-slate-50 bg-opacity-50 transition-opacity dark:bg-gray-900 dark:bg-opacity-50 md:top-[8.8vw] lg:top-[4vw]" />
         </Transition.Child>
 
         <div className="fixed inset-0 overflow-hidden">
@@ -41,7 +40,7 @@ export const SlideMenu = ({ open, setOpen }: SlideMenuProps) => {
                 leaveTo="translate-x-full"
               >
                 {/* slide panel */}
-                <Dialog.Panel className="pointer-events-auto w-screen md:max-w-[33vw]">
+                <Dialog.Panel className="pointer-events-auto w-screen lg:max-w-[33vw]">
                   <div className="flex h-full flex-col border-l-[1px] border-slate-300 bg-slate-50 pb-6 dark:border-gray-700 dark:bg-gray-900">
                     {/* top panel */}
                     <div className="border-b-[1px] border-t-[1px] border-slate-300 px-[4vw] py-[3vw] dark:border-gray-700 md:px-[3vw] md:py-[2vw] lg:px-[1.5vw] lg:py-[1vw]">
@@ -90,7 +89,7 @@ export const SlideMenu = ({ open, setOpen }: SlideMenuProps) => {
                           </div>
                         </div>
 
-                        <div className="flex flex-col gap-[5vw] border-t-[1px] border-slate-300 px-[9vw] pt-[10vw] pb-[3.5vw] dark:border-gray-700 lg:h-[13.5vw] lg:gap-[2vw] lg:p-[2.6vw] lg:pl-[3vw] lg:pt-[4.2vw]">
+                        <div className="flex flex-col gap-[5vw] border-t-[1px] border-slate-300 px-[9vw] pt-[10vw] pb-[5vw] dark:border-gray-700 md:h-[35vw] lg:h-[13.5vw] lg:gap-[2vw] lg:p-[2.6vw] lg:pl-[3vw] lg:pt-[4.2vw]">
                           {/* TODO: (low priority) extract social links to component and make it mappable from data with dynamic icon display */}
                           {/* LINKEDIN */}
                           <a
