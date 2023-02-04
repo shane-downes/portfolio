@@ -8,17 +8,26 @@ type ProjectOverviewProps = {
     title: string;
     description: string;
     stack: string;
-    mockup: string;
     demo: string;
     github: string;
   };
   mockup: StaticImageData;
+  mockupMobile: StaticImageData;
 };
 
-export const ProjectOverview = ({ project, mockup }: ProjectOverviewProps) => {
+export const ProjectOverview = ({
+  project,
+  mockup,
+  mockupMobile,
+}: ProjectOverviewProps) => {
   return (
     <div className="flex">
       <div className="flex flex-col justify-between border-slate-300 dark:border-gray-700 lg:border-l-[1px] lg:border-b-[1px] lg:p-[2.6vw] lg:pt-[2vw]">
+        <Image
+          className="mb-[7vw] w-full lg:hidden"
+          src={mockupMobile}
+          alt="Frumo App"
+        />
         <ProjectSummary
           title={project.title}
           description={project.description}

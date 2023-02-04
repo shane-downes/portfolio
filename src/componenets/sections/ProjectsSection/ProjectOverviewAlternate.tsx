@@ -8,16 +8,17 @@ type ProjectOverviewAlternateProps = {
     title: string;
     description: string;
     stack: string;
-    mockup: string;
     demo: string;
     github: string;
   };
   mockup: StaticImageData;
+  mockupMobile: StaticImageData;
 };
 
 export const ProjectOverviewAlternate = ({
   project,
   mockup,
+  mockupMobile,
 }: ProjectOverviewAlternateProps) => {
   return (
     <div className="flex">
@@ -29,6 +30,11 @@ export const ProjectOverviewAlternate = ({
         />
       </div>
       <div className="relative flex flex-col justify-between gap-[1.6vw] border-slate-300 dark:border-gray-700 lg:border-l-[1px] lg:border-b-[1px] lg:pl-[2.6vw] lg:pb-[2.6vw] lg:pt-[2vw] lg:pr-[15vw]">
+        <Image
+          className="mb-[7vw] w-full lg:hidden"
+          src={mockupMobile}
+          alt="Frumo App"
+        />
         <ProjectSummary
           title={project.title}
           description={project.description}

@@ -10,7 +10,7 @@ export function ProjectSummary({
   stack,
 }: ProjectSummaryProps) {
   return (
-    <div className="mb-[5vw] flex flex-col gap-[4vw] lg:m-0  lg:gap-[1.6vw]">
+    <div className="mb-[7vw] flex flex-col gap-[4vw] lg:m-0  lg:gap-[1.6vw]">
       <h2 className="text-[6vw] font-semibold text-slate-800 dark:text-slate-300 lg:text-[2.6vw]">
         {title}
       </h2>

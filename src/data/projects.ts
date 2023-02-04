@@ -5,7 +5,6 @@ export type Projects = {
     stack: string;
     demo: string;
     github: string;
-    mockup: string;
   };
 };
 
@@ -18,6 +17,5 @@ export const projects = {
     demo: "https://www.frumo.co.uk",
     github:
       "https://github.com/SchoolOfCode/bc13_final-project_front-end-frugal-fanatics",
-    mockup: "../../public/images/mockup-frumo.jpg",
   },
 };

@@ -2,6 +2,7 @@ import { ProjectOverviewAlternate } from "./ProjectOverviewAlternate";
 import { ProjectOverview } from "./ProjectOverview";
 import { ButtonPrimary } from "../../buttons/ButtonPrimary";
 import mockupFrumo from "../../../../public/images/mockup-frumo.jpg";
+import mockupMobileFrumo from "../../../../public/images/mockup-frumo-m.jpg";
 import { projects } from "../../../data/projects";
 
 export const ProjectsSection = ({}) => {
@@ -12,8 +13,16 @@ export const ProjectsSection = ({}) => {
         <ButtonPrimary text="LATEST WORK" />
       </div>
       <div className="flex flex-col gap-[20vw] lg:gap-0">
-        <ProjectOverview project={frumo} mockup={mockupFrumo} />
-        <ProjectOverviewAlternate project={frumo} mockup={mockupFrumo} />
+        <ProjectOverview
+          project={frumo}
+          mockup={mockupFrumo}
+          mockupMobile={mockupMobileFrumo}
+        />
+        <ProjectOverviewAlternate
+          project={frumo}
+          mockup={mockupFrumo}
+          mockupMobile={mockupMobileFrumo}
+        />
       </div>
     </section>
   );
