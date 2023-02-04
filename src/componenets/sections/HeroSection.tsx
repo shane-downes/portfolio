@@ -6,7 +6,7 @@ export const HeroSection = ({}) => {
       <h1 className="text-[8vw] font-semibold tracking-tight text-slate-800 dark:text-slate-300 lg:text-[3.2vw]">
         Hi, I’m Shane 👋
       </h1>
-      <p className="text-[6vw] font-medium leading-snug tracking-tight text-slate-500 dark:text-slate-400 lg:text-[3.2vw]">
+      <p className="text-[6vw] font-medium tracking-tight text-slate-500 dark:text-slate-400 lg:text-[3.2vw] lg:leading-snug">
         I’m a Full-Stack Web Developer who loves to design and build
         user-friendly web applications.
       </p>
