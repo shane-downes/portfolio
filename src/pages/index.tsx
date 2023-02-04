@@ -10,7 +10,6 @@ const Home: NextPage = () => {
     <Layout>
       <HeroSection />
       <ProjectsSection />
-      {/* DONE: Contact Section ✅ */}
       <ContactSection />
     </Layout>
   );

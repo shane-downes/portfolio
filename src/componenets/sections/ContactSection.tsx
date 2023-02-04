@@ -4,7 +4,10 @@ import { ButtonPrimary } from "../../componenets/buttons/ButtonPrimary";
 
 export const ContactSection = ({}) => {
   return (
-    <section className="mt-[17vw] mb-[20vw] flex flex-col gap-[5vw] lg:m-0">
+    <section
+      id="contact"
+      className="mt-[17vw] mb-[20vw] flex flex-col gap-[5vw] lg:m-0"
+    >
       <h2 className="text-[6vw] font-semibold text-slate-800 dark:text-slate-300 lg:hidden">
         Get in touch
       </h2>

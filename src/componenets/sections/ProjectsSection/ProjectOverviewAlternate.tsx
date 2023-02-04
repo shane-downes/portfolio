@@ -27,6 +27,7 @@ export const ProjectOverviewAlternate = ({
           className="hidden lg:block lg:h-[28vw] lg:w-[97vw]"
           src={mockup}
           alt="Frumo App"
+          priority
         />
       </div>
       <div className="relative flex flex-col justify-between gap-[1.6vw] border-slate-300 dark:border-gray-700 lg:border-l-[1px] lg:pl-[2.6vw] lg:pb-[2.6vw] lg:pt-[2vw] lg:pr-[15vw]">
@@ -34,6 +35,7 @@ export const ProjectOverviewAlternate = ({
           className="mb-[7vw] w-full lg:hidden"
           src={mockupMobile}
           alt="Frumo App"
+          priority
         />
         <ProjectSummary
           title={project.title}

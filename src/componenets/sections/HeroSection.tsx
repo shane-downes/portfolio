@@ -1,6 +1,8 @@
 export const HeroSection = ({}) => {
   return (
-    <section className="flex h-[80vw] flex-col justify-center gap-[2vw] lg:h-[34vw] lg:gap-[0.5vw] lg:px-[15vw]">
+    // The difference between padding top and bottom in this section is derived from the height of the navbar
+    // extra padding top was added to ProjectsSection.tsx (mobile:14vw and desktop:2.4vw) to accomadate anchor link scrolling
+    <section className="flex flex-col justify-center gap-[2vw] pt-[15vw] pb-[1vw] lg:gap-[0.5vw] lg:px-[15vw] lg:pt-[9.5vw] lg:pb-[7.1vw]">
       <h1 className="text-[8vw] font-semibold tracking-tight text-slate-800 dark:text-slate-300 lg:text-[3.2vw]">
         Hi, I’m Shane 👋
       </h1>
