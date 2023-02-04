@@ -7,11 +7,11 @@ import { projects } from "../../../data/projects";
 export const ProjectsSection = ({}) => {
   const { frumo } = projects;
   return (
-    <section className="mb-96 flex border-t-[1px] border-slate-300 dark:border-gray-700">
-      <div className="lg:pl-[15vw] lg:pr-[2.4vw] lg:pt-[2.4vw]">
+    <section className="mb-96 flex border-slate-300 dark:border-gray-700 lg:border-t-[1px]">
+      <div className="hidden lg:block lg:pl-[15vw] lg:pr-[2.4vw] lg:pt-[2.4vw]">
         <ButtonPrimary text="LATEST WORK" />
       </div>
-      <div className="flex flex-col">
+      <div className="flex flex-col gap-[20vw] lg:gap-0">
         <ProjectOverview project={frumo} mockup={mockupFrumo} />
         <ProjectOverviewAlternate project={frumo} mockup={mockupFrumo} />
       </div>

@@ -18,19 +18,23 @@ type ProjectOverviewProps = {
 export const ProjectOverview = ({ project, mockup }: ProjectOverviewProps) => {
   return (
     <div className="flex">
-      <div className="flex flex-col justify-between border-l-[1px] border-b-[1px] border-slate-300 dark:border-gray-700 lg:p-[2.6vw] lg:pt-[2vw]">
+      <div className="flex flex-col justify-between border-slate-300 dark:border-gray-700 lg:border-l-[1px] lg:border-b-[1px] lg:p-[2.6vw] lg:pt-[2vw]">
         <ProjectSummary
           title={project.title}
           description={project.description}
           stack={project.stack}
         />
-        <div className="flex gap-[2.6vw]">
+        <div className="flex gap-[7vw] lg:gap-[2.6vw]">
           <ButtonSecondary text="DEMO" href={project.demo} />
           <ButtonSecondary text="GITHUB" href={project.github} />
         </div>
       </div>
-      <div className="relative flex flex-col gap-[1.6vw] border-l-[1px] border-b-[1px] border-slate-300  dark:border-gray-700 lg:pl-[2.6vw] lg:pb-[2.6vw] lg:pt-[2.6vw] lg:pr-[15vw]">
-        <Image className="h-[28vw] w-[97vw]" src={mockup} alt="Frumo App" />
+      <div className="relative flex flex-col gap-[1.6vw] border-slate-300 dark:border-gray-700 lg:border-l-[1px] lg:border-b-[1px] lg:pl-[2.6vw] lg:pb-[2.6vw] lg:pt-[2.6vw] lg:pr-[15vw]">
+        <Image
+          className="hidden lg:block lg:h-[28vw] lg:w-[97vw]"
+          src={mockup}
+          alt="Frumo App"
+        />
       </div>
     </div>
   );
