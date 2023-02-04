@@ -5,6 +5,7 @@ import "../styles/globals.css";
 const monaSans = localFont({
   src: "../../public/fonts/mona-sans.woff2",
   variable: "--font-mona-sans",
+  display: "swap",
 });
 
 const MyApp: AppType = ({ Component, pageProps }) => {
