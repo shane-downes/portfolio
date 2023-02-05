@@ -24,10 +24,11 @@ export const ProjectOverview = ({
     <div className="flex">
       <div className="flex flex-col justify-between border-slate-300 dark:border-gray-700 lg:border-t-[1px] lg:border-l-[1px] lg:border-b-[1px] lg:p-[2.6vw] lg:pt-[2vw]">
         <Image
-          className="mb-[7vw] w-full lg:hidden"
+          className="mb-[7vw] w-full rounded-lg lg:hidden"
           src={mockupMobile}
           alt="Frumo App"
           priority
+          quality={100}
         />
         <ProjectSummary
           title={project.title}
@@ -45,6 +46,7 @@ export const ProjectOverview = ({
           src={mockup}
           alt="Frumo App"
           priority
+          quality={100}
         />
       </div>
     </div>

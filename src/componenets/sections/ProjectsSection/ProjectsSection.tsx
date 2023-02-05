@@ -1,12 +1,14 @@
 import { ProjectOverviewAlternate } from "./ProjectOverviewAlternate";
 import { ProjectOverview } from "./ProjectOverview";
 import { ButtonPrimary } from "../../buttons/ButtonPrimary";
-import mockupFrumo from "../../../../public/images/mockup-frumo.jpg";
-import mockupMobileFrumo from "../../../../public/images/mockup-frumo-m.jpg";
+import mockupFrumo from "../../../../public/images/frumo-mockup.jpg";
+import mockupPrestoKit from "../../../../public/images/presto-kit-mockup.jpg";
+import mockupMobileFrumo from "../../../../public/images/frumo-mockup-m.jpg";
+import mockupMobilePrestoKit from "../../../../public/images/presto-kit-mockup-m-2.jpg";
 import { projects } from "../../../data/projects";
 
 export const ProjectsSection = ({}) => {
-  const { frumo } = projects;
+  const { frumo, placeholder } = projects;
   return (
     <section id="latest-work" className="flex  pt-[4.3vw]">
       {/* desktop padding top added here to accomodate anchor link scrolling -> lg:pt-[2.4vw] */}
@@ -21,11 +23,11 @@ export const ProjectsSection = ({}) => {
           mockup={mockupFrumo}
           mockupMobile={mockupMobileFrumo}
         />
-        {/* TODO: add placeholder project */}
+        {/* DONE: add placeholder project ✅ */}
         <ProjectOverviewAlternate
-          project={frumo}
-          mockup={mockupFrumo}
-          mockupMobile={mockupMobileFrumo}
+          project={placeholder}
+          mockup={mockupPrestoKit}
+          mockupMobile={mockupMobilePrestoKit}
         />
       </div>
     </section>
