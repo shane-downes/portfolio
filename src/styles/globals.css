@@ -4,7 +4,6 @@
 
 :root {
   color-scheme: dark;
-  -webkit-font-smoothing: antialiased;
 }
 
 /* Importing font-face here because next/font and tailwind implimentation does
