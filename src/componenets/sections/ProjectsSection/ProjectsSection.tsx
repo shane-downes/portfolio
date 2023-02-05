@@ -13,7 +13,6 @@ export const ProjectsSection = ({}) => {
     <section id="latest-work" className="flex  pt-[4.3vw]">
       {/* desktop padding top added here to accomodate anchor link scrolling -> lg:pt-[2.4vw] */}
       <div className="hidden border-slate-300 dark:border-gray-700 lg:block lg:border-t-[1px] lg:pl-[15vw] lg:pr-[2.4vw] lg:pt-[2.4vw]">
-        {/* DONE: make sticky when scrolling past section so always in view until next section ✅ */}
         <ButtonPrimary text="LATEST WORK" />
       </div>
       {/* mobile padding top added here to accomodate anchor link scrolling -> pt-[14vw] */}
